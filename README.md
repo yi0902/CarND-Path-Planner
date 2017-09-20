@@ -12,10 +12,10 @@ The prediction was done for the S value in Frenet coordinates for both ego car a
 
 - **for ego car**: just take the end S value of the previous path as we suppose the ego car will continue previous path till the end if no new ways points were generated.
 - **for other vehicles**: 
-```future S of the vehicle = actual S of the vehicle + 
+`future S of the vehicle = actual S of the vehicle + 
 vehicle's speed * 
 time lapse between waypoints in previous path  * 
-nb waypoints left in previous path```
+nb waypoints left in previous path`
 
 I then compare the ego car's future S value with other vehicles' future S values to decide the behaviour that the ego car should take at one moment.
 
@@ -51,7 +51,7 @@ Once the Spline was built, we could generate the rest path points by feeding int
 
 Here the link to the demonstration video on Youtube.
 
-[![Path Planner Demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![Path Planner Demo](https://img.youtube.com/vi/JfvmatellnI/0.jpg)](https://www.youtube.com/watch?v=JfvmatellnI)
 
 
 ## Udacity Instructions
